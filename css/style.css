@@ -350,3 +350,31 @@ p {
     transform: translate(-50%, -50%);
     width: 21%;
 }
+
+.clients {
+    padding-top: 72px;
+    padding-bottom: 100px;
+}
+
+.clients__list {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    flex-wrap: wrap;
+}
+
+.clients__item {
+    flex: 0 1 255px;
+}
+
+.clients__link {
+    height: 100%;
+    display: block;
+    transition: all 0.
+    3s;
+}
+
+.clients__link:hover img {
+    transform: scale(1.1);
+
+}
